@@ -42,3 +42,22 @@ main {
     height: 471px;
 
 }
+
+#sociais {
+    text-align: right;
+}
+
+#sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    box-sizing: border-box;
+}
+
+#sociais img:hover {
+    transform: translate(-3px, -3px);
+    border: 2px solid rgba(255, 255, 255, 0.699);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+    transition: transform .3s, border 1s;
+}
